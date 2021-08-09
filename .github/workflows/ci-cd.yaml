@@ -14,7 +14,7 @@ jobs:
 
       - name: Setup .NET 5😎
         uses: actions/setup-dotnet@v1
-        wuth:
+        with:
           dotnet-version: '5.0.x'
         
       - name: Restore Dependencies ✌
